@@ -15,6 +15,7 @@ Key combinations :
 	For the third player and fourth player , Left and Right Arrow keys will allow them to move their paddles left and right respectively.
 
 Instructions for a new player :
+	When the PingPong.java is run , game window opens with following options:
 	1. Number of players : JButton with options 'Two' ,'Three' and 'Four' allows
 	the player to choose the number of players he wants to play with.
 
@@ -34,9 +35,13 @@ Instructions for a new player :
 
 	8. Quit button : Closes the game window.
 
-	9.SCORING : Everytime the ball touches a player's wall , his score is incremented by one. Once his score reaches 3 , he is deemed as dead and his paddle is removed with other players still connected and playing the game .
-		Last player remaining wins the game.
-	10.
+	SCORING : Everytime the ball touches a player's wall , his score is incremented by one. Once his score reaches 3 , he is deemed as dead and his paddle is removed with other players still connected and playing the game .
+	Last player remaining wins the game.
+
+	Any player can leave the game at any time by pressing the Close button on the top of game window.
+
+	Game won't start till the selected numebr of players by the host join the game.
+	
 
 
 
