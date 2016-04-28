@@ -14,10 +14,12 @@ GUI for game setup:
 Latency issues :
 
 	Message size is fixed and is not reduced as written in design doc.
-	Since we are using UDP, which is relatively faster so we need not wait to get exact position and predict trajectory as stated 	in design doc.
+	Since we are using UDP, which is relatively faster so we need not wait to get exact position and predict trajectory as stated in design doc.
 
 Extra features :
 	No power-ups and audio response is integrated in the game as stated in design doc.
-	Speed of ball and size of paddle is constant throughout the game(after the difficulty level is selected) in contrast to 		whatever to stated in design doc.
+	Speed of ball and size of paddle is constant throughout the game(after the difficulty level is selected) in contrast to whatever to stated in design doc.
+	As our life- span is 3 times hit on the wall so as to make time restriction on the game, the extra features are not being included as they would not be used in such a short span of time.
+
 
 
