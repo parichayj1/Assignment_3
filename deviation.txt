@@ -1,0 +1,23 @@
+Ball(s) :
+	In the design doc it was stated that we would also allow multiple balls with increasing difficulty level but our game only 	includes 1 ball .
+
+Replacement of dead/disconnected player :
+
+	Game continues with existing players without any replacement of dead/ disconnected player by a computer player as stated in 	design doc.
+
+Game Interaction:
+	Players can not see their rankings in the form of a list in between the game, however as soon as a player is dead his scoring 	is marked as lost and thus he can see when his scoring is lost in comparison to other players.
+
+GUI for game setup:
+	The connecting players need not have to mention their machine’s IP address but only have to mention the IP address of the 	host. The IP address of the connecting players is automatically received through our code.
+
+Latency issues :
+
+	Message size is fixed and is not reduced as written in design doc.
+	Since we are using UDP, which is relatively faster so we need not wait to get exact position and predict trajectory as stated 	in design doc.
+
+Extra features :
+	No power-ups and audio response is integrated in the game as stated in design doc.
+	Speed of ball and size of paddle is constant throughout the game(after the difficulty level is selected) in contrast to 		whatever to stated in design doc.
+
+
